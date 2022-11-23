@@ -2,7 +2,7 @@
 name = "converter"
 version = "0.1.0"
 description = ""
-authors = ["funkylen <funkylen@gmail.com>"]
+authors = ["josephfierlinger <josephfierlinger@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -20,3 +20,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 convert-distance = 'converter.scripts.convert-distance:main'
+convert-currency-interactive = 'converter.scripts.convert-currency-interactive:main'
+convert-currency = 'converter.scripts.convert-currency:main'
